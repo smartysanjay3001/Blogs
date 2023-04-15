@@ -1,14 +1,17 @@
 
+import { Component } from 'react';
 import './App.css';
 import Blogs from './components/Blogs';
 
-function App() {
+class App extends Component {
+
+  render(){
    return ( 
      <div>
-      
       <Blogs/>
      </div>
    )
+  }
 }
 
 export default App;
